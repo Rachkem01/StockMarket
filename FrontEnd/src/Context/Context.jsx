@@ -8,7 +8,7 @@ export const StockContext = createContext(null)
 
 const StockContextProvider = ({children})=>{
 
-    const url = 'http://localhost:4000'
+    const url = "https://stockmarket-1tmo.onrender.com"
     
     const [stockList, setStockList] = useState([])
     const [token, setToken] = useState('')
